@@ -6,27 +6,11 @@ This paper proposes a novel method called Textual-Visual Interaction for Enhance
 ![20231020101639](https://github.com/ncfjd/TVI-Derain/blob/main/figure/fig.pdf)
 
 ## Datasets
-<table>
-<thead>
-  <tr>
-    <th>Dataset</th>
-    <th>Rain200<H/th>
-    <th>Rain200L</th>
-    <th>Rain800</th>
-    <th>Rain1400</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Baidu Cloud</td>
-    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain100H_">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain200L ">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain800 ">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain1400 ">Download</a> </td>
-  </tr>
-</tbody>
-</table>
-Here, we provide complete datasets, including "Rain200H", "Rain200L", "Rain800" and "Rain1400", and they are fully paired images. 
+* prepare data
+  * ```mkdir ./datasets/Rain13k```
+
+  * download the [train](https://drive.google.com/drive/folders/1Hnnlc5kI0v9_BtfMytC2LR5VpLAFZtVe?usp=sharing) set and [test](https://drive.google.com/drive/folders/1PDWggNh8ylevFmrjo-JEvlmqsDlWWvZs?usp=sharing) set (refer to [MPRNet](https://github.com/swz30/MPRNet))
+
 
 ### Training
 The training code will be released after the paper is accepted.
@@ -49,4 +33,4 @@ python test.py
 
 ## Acknowledgment
 
-This code is based on the [Restormer](https://github.com/swz30/Restormer). Thanks for their awesome work.
+This code is based on the [PromptIR](https://github.com/va1shn9v/PromptIR),[DA-CLIP](https://github.com/Algolzw/daclip-uir),[RLP](https://github.com/zkawfanx/RLP). Thanks for their awesome work.

@@ -9,10 +9,10 @@ This paper proposes a novel method called Textual-Visual Interaction for Enhance
 * prepare data
   * ```mkdir ./datasets/Rain13k```
 
-  * download the [train](https://drive.google.com/drive/folders/1Hnnlc5kI0v9_BtfMytC2LR5VpLAFZtVe?usp=sharing) set and [test](https://drive.google.com/drive/folders/1PDWggNh8ylevFmrjo-JEvlmqsDlWWvZs?usp=sharing) set (refer to [MPRNet](https://github.com/swz30/MPRNet))
+  * download the [train](https://drive.google.com/drive/folders/1Hnnlc5kI0v9_BtfMytC2LR5VpLAFZtVe?usp=sharing) set and [test](https://drive.google.com/drive/folders/1PDWggNh8ylevFmrjo-JEvlmqsDlWWvZs?usp=sharing) set 
 
 
-### Training
+## Training
 The training code will be released after the paper is accepted.
 You should change the path to yours in the `Train.py` file.  Then run the following script to test the trained model:
 
@@ -20,7 +20,7 @@ You should change the path to yours in the `Train.py` file.  Then run the follow
 python Train.py
 ```
 
-### Testing
+## Testing
 You should change the path to yours in the `test.py` file.  Then run the following script to test the trained model:
 
 ```sh

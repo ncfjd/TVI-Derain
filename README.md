@@ -31,6 +31,15 @@ python test.py
 1. Send e-mail to 230520854000555@xy.dlpu.edu.cn if you have critical issues to be addressed.
 2. Please note that there exists the slight gap in the final version due to errors caused by different testing devices and environments.
 
+## Citations
+
+If TVI-Derain helps your research or work, please consider citing TVI-Derain.
+```
+@InProceedings{,
+  
+}
+```
+
 ## Acknowledgment
 
 This code is based on the [PromptIR](https://github.com/va1shn9v/PromptIR),[DA-CLIP](https://github.com/Algolzw/daclip-uir),[RLP](https://github.com/zkawfanx/RLP). Thanks for their awesome work.

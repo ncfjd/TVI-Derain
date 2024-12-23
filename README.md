@@ -3,7 +3,7 @@
 
 This paper proposes a novel method called Textual-Visual Interaction for Enhanced Single Image Deraining using Adapter-Tuned VLMs (TVI-Derain). By leveraging the extensive textual knowledge from pretrained visual-language models (VLMs), we aim to improve the performance of single image deraining. To address the gap between VLMs and the restoration model, we introduce textual-aware intra-layer (TaIl) adapters that adapt the features of downstream data by capturing task-specific knowledge. Furthermore, a textual-visual feature interaction (TVI) module is designed to bridge the gap between textual and visual features, enabling reliable interaction. The proposed cross-attention feature interaction (CAFI) block within the TVI module effectively represents the interactive features. Semantic and degradation textual prompts are integrated as inputs to the text encoder to mitigate semantic disconnection arising from degraded samples. Extensive experimental results on benchmark datasets demonstrate that our method outperforms other competitive methods in terms of performance, showcasing its potential applications in automotive vision systems and surveillance.
 
-![20231020101639](https://github.com/ncfjd/TVI-Derain/blob/main/figure/fig.pdf)
+![fig1.pdf](https://github.com/ncfjd/TVI-Derain/blob/main/figure/fig.pdf)
 
 ## Datasets
 * prepare data

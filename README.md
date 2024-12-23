@@ -1,9 +1,9 @@
 # Textual-Visual Interaction for Enhanced Single Image Deraining using Adapter-Tuned VLMs
 ## Abstract
 
-In recent years, Transformers have demonstrated significant performance in single image deraining tasks. However, the standard self-attention in the Transformers makes it difficult to effectively model local features of images. To alleviate the above problems, this paper proposes a high-quality deraining Transformer with **e**ffective **l**arge **k**ernel **a**ttention, named as E-LKAformer. The network employs an Effective Large Kernel Conv-Block (ELKB) to guide the extraction of rich features, which contains 3 key designs: Large Kernel Attention Block (LKAB), Dynamical Enhancement Feed-forward Network (DEFN), and Edge Squeeze Recovery Block (ESRB). The ELKB, based on the Transformer framework, introduces convolutional modulation in LKAB to substitute the computation of vanilla self-attention and achieve better local feature extraction results. To further generate deraining features, Dynamical Enhancement Feed-forward Network (DEFN) is designed to refine the most valuable attention values into each pixel point so that the overall design can better keep local representations. Additionally, we develop an Edge Squeeze Recovery Block (ESRB), fusing the spatial features in different directions thus compensating for the loss of positional information. Massive experimental results demonstrate that this method achieves favorable effects while effectively saving computational costs. 
+This paper proposes a novel method called Textual-Visual Interaction for Enhanced Single Image Deraining using Adapter-Tuned VLMs (TVI-Derain). By leveraging the extensive textual knowledge from pretrained visual-language models (VLMs), we aim to improve the performance of single image deraining. To address the gap between VLMs and the restoration model, we introduce textual-aware intra-layer (TaIl) adapters that adapt the features of downstream data by capturing task-specific knowledge. Furthermore, a textual-visual feature interaction (TVI) module is designed to bridge the gap between textual and visual features, enabling reliable interaction. The proposed cross-attention feature interaction (CAFI) block within the TVI module effectively represents the interactive features. Semantic and degradation textual prompts are integrated as inputs to the text encoder to mitigate semantic disconnection arising from degraded samples. Extensive experimental results on benchmark datasets demonstrate that our method outperforms other competitive methods in terms of performance, showcasing its potential applications in automotive vision systems and surveillance.
 
-![20231020101639](https://github.com/dong111-hb/ELKAformer/assets/94959684/51fa7dc7-8404-4b36-8328-544f89de3147)
+![20231020101639](https://github.com/ncfjd/TVI-Derain/blob/main/figure/fig.pdf)
 
 ## Datasets
 <table>
@@ -44,7 +44,7 @@ python test.py
 ```
 ## Notes
 
-1. Send e-mail to dhb2638@163.com if you have critical issues to be addressed.
+1. Send e-mail to 230520854000555@xy.dlpu.edu.cn if you have critical issues to be addressed.
 2. Please note that there exists the slight gap in the final version due to errors caused by different testing devices and environments.
 
 ## Acknowledgment
